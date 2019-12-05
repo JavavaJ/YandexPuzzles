@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebf1f4fb-0ad7-495d-9d5b-29cc31078ab7" name="Default" comment="" />
+    <list default="true" id="ebf1f4fb-0ad7-495d-9d5b-29cc31078ab7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,8 +124,8 @@
       <file leaf-file-name="ArrayCopyPlayground.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="240">
+              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
                 <element signature="e#1036#1037#0" expanded="true" />
                 <element signature="e#1100#1101#0" expanded="true" />
@@ -205,6 +207,9 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -280,6 +285,7 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -296,30 +302,6 @@
               <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
               <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codewars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="map_to_object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="predicates_playground" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="some_playground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +339,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -542,7 +524,7 @@
       <workItem from="1575126721382" duration="787000" />
       <workItem from="1575360955840" duration="6580000" />
       <workItem from="1575537616884" duration="566000" />
-      <workItem from="1575538341316" duration="4706000" />
+      <workItem from="1575538341316" duration="5504000" />
     </task>
     <servers />
   </component>
@@ -558,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71528000" />
+    <option name="totallyTimeSpent" value="72326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -582,10 +564,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30206898" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20413794" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1018,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="240">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="e#1036#1037#0" expanded="true" />
             <element signature="e#1100#1101#0" expanded="true" />
