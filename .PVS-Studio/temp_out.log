@@ -1,0 +1,5 @@
+Error: Invalid License
+com.pvsstudio.PvsStudioLicenseException: Invalid License
+	at com.pvsstudio.Main.checkLicense(Main.java:219)
+	at com.pvsstudio.Main.main(Main.java:414)
+Analysis finished in 00:00:02.059.

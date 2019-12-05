@@ -1,0 +1,10 @@
+[INFO][18:50:39] ********************************
+[INFO][18:50:39] Native library search paths: 
+[INFO][18:50:39] /Users/alex/.config/PVS-Studio-Java/7.04.34029
+[INFO][18:50:39] .
+[INFO][18:50:39] /Users/alex/.config/PVS-Studio-Java/7.04.34029/..
+[INFO][18:50:39] /Users/alex/.config/PVS-Studio-Java/7.04.34029/../..
+[INFO][18:50:39] /Users/alex/.config/PVS-Studio-Java/7.04.34029/../../build
+[INFO][18:50:39] Additional path: native/mac
+[INFO][18:50:39] Native library found: /Users/alex/.config/PVS-Studio-Java/7.04.34029/native/mac/libanalysis-core.dylib
+[INFO][18:50:39] ********************************

@@ -1,0 +1,46 @@
+{
+  "warnings": [
+    {
+      "code": "V062",
+      "cwe": 0,
+      "level": 0,
+      "positions": [],
+      "message": "Failed to run analyzer core (return code 234). Make sure the correct 64-bit Java 8 or higher executable is used, or specify it manually.",
+      "stacktrace": [
+        "com.pvsstudio.PvsStudioInvoker.run(PvsStudioInvoker.java:107)",
+        "com.pvsstudio.intellij.AnalyzeTask.analyzeJavaProject(AnalyzeTask.java:164)",
+        "com.pvsstudio.intellij.AnalyzeTask.run(AnalyzeTask.java:89)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:750)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:580)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:525)",
+        "com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:85)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)",
+        "com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:395)",
+        "com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:305)",
+        "java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)",
+        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+        "java.lang.Thread.run(Thread.java:745)"
+      ],
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "",
+      "cwe": 0,
+      "level": 0,
+      "positions": [],
+      "message": "Invalid License.",
+      "stacktrace": [
+        "com.pvsstudio.Main.checkLicense(Main.java:219)",
+        "com.pvsstudio.Main.main(Main.java:414)"
+      ],
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
