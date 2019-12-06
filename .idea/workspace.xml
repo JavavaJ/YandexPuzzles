@@ -196,8 +196,8 @@
       <file leaf-file-name="SetPlayground.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -354,8 +354,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-212" />
+    <option name="y" value="-939" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -604,7 +606,7 @@
       <workItem from="1575360955840" duration="6580000" />
       <workItem from="1575537616884" duration="566000" />
       <workItem from="1575538341316" duration="7725000" />
-      <workItem from="1575620123717" duration="1308000" />
+      <workItem from="1575620123717" duration="1748000" />
     </task>
     <servers />
   </component>
@@ -620,10 +622,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75855000" />
+    <option name="totallyTimeSpent" value="76295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-351" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -644,10 +646,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5006896" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36119404" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33731344" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2253635" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33731344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1485623" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1078,8 +1080,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
