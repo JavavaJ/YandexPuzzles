@@ -17,15 +17,15 @@ public class SetPlayground {
 
         System.out.println(intSet); // [1, 2, 3, 4, 5]
 
-        HashSet<String> strSet = new HashSet<>();
-        strSet.add("dog");
-        strSet.add("cat");
-        strSet.add("pig");
-        strSet.add("cock");
+        HashSet<String> set = new HashSet<>();
+        set.add("dog");
+        set.add("cat");
+        set.add("pig");
+        set.add("cock");
 
-        String[] strArrayFromSet = new String[strSet.size()];
-
-        System.out.println(strSet);
+        String[] strArrayFromSet = new String[set.size()];
+        strArrayFromSet = set.toArray(strArrayFromSet);
+        System.out.println("Array: " + Arrays.toString( strArrayFromSet));
 
     }
 
