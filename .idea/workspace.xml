@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf1f4fb-0ad7-495d-9d5b-29cc31078ab7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/some_playground/SetPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/some_playground/SetPlayground.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -187,17 +187,17 @@
       <file leaf-file-name="ArrayCopyPlayground.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="258">
               <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="SetPlayground.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -280,7 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/codewars/KeepHydratedTest.java" />
         <option value="$PROJECT_DIR$/src/codewars/KeepHydrated.java" />
         <option value="$PROJECT_DIR$/src/codewars/MoreWomen.java" />
         <option value="$PROJECT_DIR$/src/codewars/TriangularNumbers.java" />
@@ -331,6 +330,7 @@
         <option value="$PROJECT_DIR$/src/task1/Puzzle2.kt" />
         <option value="$PROJECT_DIR$/src/task1/Puzzle2.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/some_playground/SetPlayground.java" />
       </list>
     </option>
   </component>
@@ -351,8 +351,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-351" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -379,7 +381,7 @@
               <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
               <item name="YandexPuzzles" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codewars" type="462c0819:PsiDirectoryNode" />
+              <item name="some_playground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YandexPuzzles" type="b2602c69:ProjectViewProjectNode" />
@@ -403,6 +405,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="Errror&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -600,7 +603,7 @@
       <workItem from="1575360955840" duration="6580000" />
       <workItem from="1575537616884" duration="566000" />
       <workItem from="1575538341316" duration="7725000" />
-      <workItem from="1575620123717" duration="305000" />
+      <workItem from="1575620123717" duration="528000" />
     </task>
     <servers />
   </component>
@@ -616,10 +619,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74852000" />
+    <option name="totallyTimeSpent" value="75075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="-351" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -632,11 +635,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30206898" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.50206894" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33793104" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="PVS-Studio" order="7" weight="0.32965517" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2253635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1485623" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -719,8 +722,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/certification/buyables/SomeObject.java" />
-    <entry file="file://$PROJECT_DIR$/src/certification/buyables/JustAnotherClass.java" />
     <entry file="file://$PROJECT_DIR$/src/certification/inheritExceptions/just.java" />
     <entry file="file://$PROJECT_DIR$/src/certification/buyables/Book.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -988,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1060,10 +1054,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
