@@ -2,6 +2,7 @@ package codewars;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class MergeTwoUniqueArrays {
 
@@ -21,6 +22,15 @@ public class MergeTwoUniqueArrays {
 
         int[] ints = sortedMergedList.stream()
                 .mapToInt(i -> i)
+                .toArray();
+
+        return ints;
+    }
+
+    public static int[] mergeArraysBetterWay(int[] first, int[] second) {
+        int[] ints = IntStream.concat(IntStream.of(first), IntStream.of(second))
+                .distinct()
+                .sorted()
                 .toArray();
 
         return ints;
