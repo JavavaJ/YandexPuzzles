@@ -16,8 +16,9 @@ public class SetPlayground {
         Collections.addAll(intSet, integerArray);
         System.out.println(intSet); // [1, 2, 3, 4, 5]
 
-        Set<String> mySet = Stream.of("A", "B", "C", "D").collect(Collectors.toCollection(HashSet::new));
-        System.out.println(mySet);
+        Set<String> mySet = Stream.of("A", "B", "C", "D")
+                .collect(Collectors.toCollection(HashSet::new));
+
 
 
         HashSet<String> set = new HashSet<>();
