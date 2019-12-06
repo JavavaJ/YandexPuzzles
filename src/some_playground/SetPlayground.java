@@ -2,6 +2,7 @@ package some_playground;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SetPlayground {
 
@@ -10,15 +11,14 @@ public class SetPlayground {
         int [] arr = new int[] {1, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5};
         Integer[] integerArray = Arrays.stream(arr)
                 .boxed()
-                .toArray(Integer[]::new);
+                .toArray(Integer[]::new);  // convert ints to Integers
         HashSet<Integer> intSet = new HashSet<>();
         Collections.addAll(intSet, integerArray);
+        System.out.println(intSet); // [1, 2, 3, 4, 5]
 
-//        Set<Integer> intSet = Arrays.stream(arr)
-//                .boxed()
-//                .collect(Collectors.toSet());
-//
-//        System.out.println(intSet); // [1, 2, 3, 4, 5]
+        Set<String> mySet = Stream.of("A", "B", "C", "D").collect(Collectors.toCollection(HashSet::new));
+        System.out.println(mySet);
+
 
         HashSet<String> set = new HashSet<>();
         set.add("dog");
