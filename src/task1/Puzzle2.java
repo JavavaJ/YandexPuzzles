@@ -56,7 +56,7 @@ public class Puzzle2 {
         return linesList;
     }
 
-    public static void createOutputFile(String content) {
+    public static void createOutputFile(String content, boolean isBullshit) {
         String outputFileName = "output.txt";
 
         FileOutputStream fop = null;
@@ -113,7 +113,7 @@ public class Puzzle2 {
             outputStr += minIndex;
             outputStr += System.lineSeparator();
         }
-        createOutputFile(outputStr);
+        createOutputFile(outputStr, false);
     }
 
 
