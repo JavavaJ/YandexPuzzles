@@ -12,8 +12,7 @@ public class SetPlayground {
                 .boxed()
                 .toArray(Integer[]::new);
         HashSet<Integer> intSet = new HashSet<>();
-        Collections.addAll(intSet, integerArray); // little comment to check git
-
+        Collections.addAll(intSet, integerArray);
 
 //        Set<Integer> intSet = Arrays.stream(arr)
 //                .boxed()
