@@ -28,7 +28,7 @@ public class ArrayCopyPlayground {
         System.out.println();
         System.out.println("books2: " + Arrays.toString(books2));
 
-        MockBook pythonMockBook = new MockBook("Python", "Italian Guy");
+        MockBook pythonMockBook = getPythonMockBook();
 
         books1[1] = pythonMockBook;
 
@@ -38,6 +38,10 @@ public class ArrayCopyPlayground {
         System.out.println();
         System.out.println("books2: " + Arrays.toString(books2));
 
+    }
+
+    private static MockBook getPythonMockBook() {
+        return new MockBook("Python", "Italian Guy");
     }
 
     private static void printMockBooksArray(MockBook[] books1) {
