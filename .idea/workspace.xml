@@ -185,9 +185,10 @@
       <file leaf-file-name="ArrayCopyPlayground.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="463">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
+                <element signature="e#1091#1092#0" expanded="true" />
                 <element signature="e#1151#1152#0" expanded="true" />
               </folding>
             </state>
@@ -604,7 +605,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72642000" />
+    <option name="totallyTimeSpent" value="72699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-351" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -628,7 +629,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36119404" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935324" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46467662" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1485623" />
       <window_info anchor="bottom" id="Problems" order="7" />
@@ -1076,9 +1077,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/some_playground/ArrayCopyPlayground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="463">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
+            <element signature="e#1091#1092#0" expanded="true" />
             <element signature="e#1151#1152#0" expanded="true" />
           </folding>
         </state>
