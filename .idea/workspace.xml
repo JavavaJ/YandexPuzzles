@@ -196,8 +196,11 @@
       <file leaf-file-name="SetPlayground.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -351,10 +354,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-351" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-212" />
+    <option name="y" value="-939" />
+    <option name="width" value="1280" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -447,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayCopyPlayground">
+  <component name="RunManager" selected="Application.SetPlayground">
     <configuration name="ArrayCopyPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="some_playground.ArrayCopyPlayground" />
       <module name="YandexPuzzles" />
@@ -481,8 +484,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NullStringPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="some_playground.NullStringPlayground" />
+    <configuration name="PaymentReturnUrlBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="some_playground.PaymentReturnUrlBuilderTest" />
       <module name="YandexPuzzles" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -492,8 +495,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PaymentReturnUrlBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="some_playground.PaymentReturnUrlBuilderTest" />
+    <configuration name="SetPlayground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="some_playground.SetPlayground" />
       <module name="YandexPuzzles" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -545,19 +548,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NullStringPlayground" />
       <item itemvalue="Application.PaymentReturnUrlBuilderTest" />
       <item itemvalue="Application.MergeTwoUniqueArrays" />
       <item itemvalue="Application.IntStreamPlayground" />
       <item itemvalue="Application.ArrayCopyPlayground" />
+      <item itemvalue="Application.SetPlayground" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetPlayground" />
         <item itemvalue="Application.ArrayCopyPlayground" />
         <item itemvalue="Application.IntStreamPlayground" />
         <item itemvalue="Application.MergeTwoUniqueArrays" />
         <item itemvalue="Application.PaymentReturnUrlBuilderTest" />
-        <item itemvalue="Application.NullStringPlayground" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +606,7 @@
       <workItem from="1575360955840" duration="6580000" />
       <workItem from="1575537616884" duration="566000" />
       <workItem from="1575538341316" duration="7725000" />
-      <workItem from="1575620123717" duration="528000" />
+      <workItem from="1575620123717" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -619,7 +622,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75075000" />
+    <option name="totallyTimeSpent" value="75591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-351" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -635,7 +638,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30206898" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33793104" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33731344" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="PVS-Studio" order="7" weight="0.32965517" />
       <window_info id="Designer" order="2" />
@@ -1077,8 +1080,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/some_playground/SetPlayground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
