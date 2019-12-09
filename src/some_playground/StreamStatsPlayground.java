@@ -15,6 +15,10 @@ public class StreamStatsPlayground {
         int min = statistics.getMin();
         long sum = statistics.getSum();
 
+        boolean contains11 = IntStream.range(1, 70)
+                .anyMatch(i -> i % 11 == 0);
+        System.out.println(contains11);
+
     }
 
 }
