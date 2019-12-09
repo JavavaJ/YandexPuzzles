@@ -14,7 +14,6 @@ public class StreamStatsPlayground {
         int max = statistics.getMax();
         int min = statistics.getMin();
         long sum = statistics.getSum();
-        System.out.println("average: " + average + " count " + count + " max " + max + " min " + min + " sum " + sum);
 
     }
 
