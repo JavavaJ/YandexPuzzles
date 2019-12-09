@@ -15,6 +15,8 @@ public class StreamStatsPlayground {
         int min = statistics.getMin();
         long sum = statistics.getSum();
 
+
+
     }
 
 }
