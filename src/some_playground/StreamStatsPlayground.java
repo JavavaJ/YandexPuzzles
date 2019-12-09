@@ -19,6 +19,13 @@ public class StreamStatsPlayground {
                 .anyMatch(i -> i % 11 == 0);
         System.out.println(contains11);
 
+        int maxInt = IntStream.range(2, 49)
+                .max()
+                .getAsInt();
+        System.out.println(maxInt);
+        int sumOfRange = IntStream.rangeClosed(1, 6).reduce(0, (x, y) -> x + y);
+        System.out.println("sum: " + sumOfRange);
+
     }
 
 }
