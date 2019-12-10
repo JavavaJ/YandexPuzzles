@@ -1,14 +1,16 @@
 package codewars;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class MultipleOfIndex {
 
     public static int[] multipleOfIndex(int[] array) {
-        IntStream range = IntStream.range(0, array.length);
-        int[] ints = range.filter(i -> array[i] % i == 0)
-                .peek(System.out::println)
+        IntStream range = IntStream.range(1, array.length);
+        int[] ints = range.filter(i -> array[i] % i == 0).map(i -> array[i])
                 .toArray();
         return ints;
 //        return IntStream.range(0, array.length)
@@ -17,15 +19,32 @@ public class MultipleOfIndex {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = new int[] {};
-        int[] arr2 = new int[] {22, -6, 32, 82, 9, 25};
-        int[] arr3 = new int[] {};
-        int[] arr4 = new int[] {};
+        int[] arr1 = new int[] {22, -6, 32, 82, 9, 25};
 
-        Arrays.stream(arr2).forEach(System.out::println);
+        int[] ints = multipleOfIndex(arr1);
 
-        boolean zeroModulo = 7 % 0 == 0;
-        System.out.println(zeroModulo);
+        printIntArray(ints);
     }
+
+    private static void printIntArray(int[] ints) {
+        String strResult = Arrays.stream(ints)
+                .mapToObj(i -> String.valueOf(i))
+                .collect(Collectors.joining(" "));
+        System.out.println(strResult);
+    }
+
+//    // old Java solution
+//    public static int[] multipleOfIndex(int[] array) {
+//        List<Integer> result = new ArrayList<>();
+//        for (int i = 0; i < array.length; i++) {
+//            if (i != 0 && array[i] % i == 0) {
+//                result.add(array[i]);
+//            }
+//        }
+//        int[] ints = result.stream()
+//                .mapToInt(i -> i)
+//                .toArray();
+//        return ints;
+//    }
 
 }
