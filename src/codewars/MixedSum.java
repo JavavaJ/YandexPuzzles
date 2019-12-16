@@ -21,7 +21,6 @@ public class MixedSum {
                     return currInt;
                 })
                 .sum();
-        ;
         return sum;
     }
 

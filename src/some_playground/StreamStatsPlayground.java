@@ -26,6 +26,8 @@ public class StreamStatsPlayground {
         int sumOfRange = IntStream.rangeClosed(1, 6).reduce(0, (x, y) -> x + y);
         System.out.println("sum: " + sumOfRange);
 
+
+
     }
 
 }
