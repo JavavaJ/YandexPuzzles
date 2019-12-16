@@ -9,6 +9,12 @@ public class Class2 {
 
         List<String> list = new ArrayList<>();
         list.add("done");
+        list.add("do");
+        list.add("did");
+
+        String[] arr;
+
+        arr = (String[]) list.toArray();
 
     }
 
