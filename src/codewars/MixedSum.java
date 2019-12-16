@@ -11,15 +11,7 @@ public class MixedSum {
      */
     public int sum(List<?> mixed) {
         int sum = mixed.stream()
-                .mapToInt(i -> {
-                    Integer currInt = null;
-                    if (i instanceof String) {
-                        currInt = Integer.parseInt((String) i);
-                    } else if (i instanceof Integer) {
-                        currInt = (Integer) i;
-                    }
-                    return currInt;
-                })
+                .mapToInt(i -> i instanceof String ? Integer.valueOf((String) i) : (Integer) i)
                 .sum();
         return sum;
     }
