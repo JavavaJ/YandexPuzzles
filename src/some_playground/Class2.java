@@ -12,9 +12,13 @@ public class Class2 {
         list.add("do");
         list.add("did");
 
-        String[] arr;
+        String[] arr = new String[list.size()];
 
-        arr = (String[]) list.toArray();
+        arr = list.toArray(arr);
+
+        for (String str : arr) {
+            System.out.println(str);
+        }
 
     }
 
