@@ -1,5 +1,8 @@
 package some_playground;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ObjectPlayground {
 
     public static void main(String[] args) {
@@ -14,6 +17,10 @@ public class ObjectPlayground {
         Object strAsObj = "dog";
         System.out.println(strAsObj instanceof String);
         System.out.println(strAsObj instanceof Object);
+
+        List<?> mixedList = new ArrayList<>();
+        mixedList.add(new String("string"));
+
     }
 
 }
