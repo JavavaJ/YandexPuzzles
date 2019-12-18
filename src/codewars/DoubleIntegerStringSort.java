@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class DoubleIntegerStringSort {
@@ -24,27 +25,18 @@ public class DoubleIntegerStringSort {
                     }
                 });
 
-        List<Integer> sortedIntegers = integers.stream()
+        List<Object> intObjects = integers.stream()
                 .sorted(Comparator.naturalOrder())
+                .map(Object.class::cast)
                 .collect(Collectors.toList());
 
-        List<String> sortedStrings = strings.stream()
+        List<Object> strObjects = strings.stream()
                 .sorted(Comparator.naturalOrder())
+                .map(Object.class::cast)
                 .collect(Collectors.toList());
 
-        List<Object> sortedIntegersObj = new ArrayList<>();
-        List<Object> sortedStringsObj = new ArrayList<>();
-
-        for (Integer integer : sortedIntegers) {
-            sortedIntegersObj.add(integer);
-        }
-
-        for (String str : sortedStrings) {
-            sortedStringsObj.add(str);
-        }
-
-        List<Object> objectList = Stream.concat(sortedIntegersObj.stream(),
-                sortedStringsObj.stream())
+        List<Object> objectList = Stream.concat(intObjects.stream(),
+                strObjects.stream())
                 .collect(Collectors.toList());
 
         Object[] objects = objectList.toArray(new Object[objectList.size()]);
@@ -67,6 +59,11 @@ public class DoubleIntegerStringSort {
                 .collect(Collectors.toList());
 
         Object obj = Object.class.cast("String as object");
+
+        Stream<Integer> intStream = IntStream.iterate(1, i -> i + 1)
+                .limit(7)
+                .boxed();
+
 
     }
 
