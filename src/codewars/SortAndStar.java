@@ -36,6 +36,10 @@ public class SortAndStar {
     public static void main(String[] args) {
         String[] strings = {"bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"};
         System.out.println(twoSort(strings));
+
+        String bitcoin = "bitcoin";
+        String[] splitArr = bitcoin.split("");
+        Arrays.stream(splitArr).forEach(System.out::println);
     }
 
 }
