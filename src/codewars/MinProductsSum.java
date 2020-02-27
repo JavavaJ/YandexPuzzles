@@ -1,20 +1,16 @@
 package codewars;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class MinProductsSum {
 
     public static int minSum(int[] ints) {
-        int[] sortedInts = Arrays.stream(ints)
-            .sorted()
-            .toArray();
-        int len = sortedInts.length;
-        int sum = 0;
-        for (int i = 0; i < ints.length / 2; i++) {
-            sum += sortedInts[i] * sortedInts[len - 1 - i];
-        }
-
-        return sum;
+        Arrays.sort(ints);
+        int len = ints.length;
+        return IntStream.range(0, ints.length / 2)
+            .map(i -> ints[i] * ints[len - i - 1])
+            .sum();
     }
 
 }
