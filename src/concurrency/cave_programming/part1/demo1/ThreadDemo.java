@@ -1,4 +1,4 @@
-package concurrency.cave_programming;
+package concurrency.cave_programming.part1.demo1;
 
 class Runner extends Thread {
     @Override
