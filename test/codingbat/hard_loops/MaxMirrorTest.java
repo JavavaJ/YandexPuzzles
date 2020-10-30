@@ -18,4 +18,6 @@ public class MaxMirrorTest {
         assertEquals(obj.maxMirror(arr2), 3);
         assertEquals(obj.maxMirror(arr3), 2);
     }
+
+
 }
