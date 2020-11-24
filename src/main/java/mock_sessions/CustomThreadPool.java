@@ -1,15 +1,18 @@
 package mock_sessions;
 
+import lombok.SneakyThrows;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class CustomThreadPool implements ExecutorService {
 
     private int maxThreads;
-    private final List<Thread> threads = new ArrayList<>();
-    private ConcurrentLinkedQueue<Runnable> tasks = new ConcurrentLinkedQueue<>();
+    private final List<Worker> threads = new ArrayList<>();
+    private volatile LinkedBlockingQueue<Trash> tasks = new LinkedBlockingQueue<>();
     private volatile boolean isRunning = false;
 
 
@@ -22,24 +25,23 @@ public class CustomThreadPool implements ExecutorService {
         isRunning = true;
 
         for (int i = 0; i < maxThreads; i++) {
-            Thread thread = new Thread(() -> {
-                while(isRunning) {
-                    Runnable runnable = tasks.poll();
-                    if (runnable != null) {
-                        runnable.run();
-                    }
-                }
-            });
-
-            thread.start();
-            threads.add(thread);
+            Worker worker = new Worker();
+            threads.add(worker);
+            worker.start();
         }
     }
 
     @Override
     public Future<?> submit(Runnable task) {
-        tasks.add(task);
+//        tasks.add(task);
+
         return null;
+    }
+
+    public AtomicBoolean bla(Runnable task) {
+        AtomicBoolean thisBool = new AtomicBoolean();
+        tasks.add(new Trash(new AtomicBoolean(), task));
+        return thisBool;
     }
 
     @Override
@@ -105,5 +107,38 @@ public class CustomThreadPool implements ExecutorService {
     @Override
     public void execute(Runnable command) {
 
+    }
+
+    private class Worker extends Thread {
+
+        @Override
+        public void run() {
+
+            while (isRunning) {
+                Trash trash = tasks.poll();
+                if (trash != null) {
+                    trash.getRunnable().run();
+                    trash.getBool().set(true);
+                }
+            }
+        }
+    }
+
+    private static class Trash {
+        AtomicBoolean bool;
+        Runnable runnable;
+
+        Trash(AtomicBoolean bool, Runnable runnable) {
+            this.bool = bool;
+            this.runnable = runnable;
+        }
+
+        public AtomicBoolean getBool() {
+            return bool;
+        }
+
+        public Runnable getRunnable() {
+            return runnable;
+        }
     }
 }

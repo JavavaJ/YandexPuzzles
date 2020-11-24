@@ -1,0 +1,110 @@
+#1 What the stack segment contains?
+#2 What is the main reason for placing global and static variables into separate segments?
+#3 What the uninitialized data segment contains?
+#4 What the initialized data segment contains?
+#5 Is the text segment of a process sharable?
+#6 Is the text segment of a process made read-only?
+#7 Of which segments the memory allocated to a process is composed?
+#8 How to find the parent of any process?
+#9 What happens if a parent of a child process dies?
+#10 What happens a user needs to spawn a new process but the limit of 32,767 processes has already been reached?
+#11 What is a process?
+#12 What kind of information does a program file contain?
+#13 Does the O_APPEND flag affect reads from file?
+#14 When the file created my mkstemp() will be actually deleted?
+#15 Check right statements about the `/dev/fd` path?
+#16 What is the purpose of O_NONBLOCK flag when opening a file?
+#17 In truncate system call, if a file is shorter than specified length, what will it do?
+#18 What is the difference between read/write and pread/pwrite system calls?
+#19 Does the kernel maintain a system-wide table of all open file descriptions?
+#20 How does the shell achieves the redirection of standard error to the standard output?
+#21 Draw the right implications from the figure below
+#22 What information does the i-node include?
+#23 What information is stored in the open file table?
+#24 Does the kernel maintain a per-process table of open file descriptors?
+#25 Is it possible to have multiple descriptors referring to the same file?
+#26 Is it possible to modify any file status flag with fcntl() call?
+#27 When using of fcntl() may be useful?
+#28 What is a purpose of fcntl() system call?
+#29 How to avoid race conditions while appending a string to a file?
+#30 Are system calls atomic?
+#31 What is the ioctl() system call?
+#32 Can the nominal file size be be larger than the amount of disk storage it utilizes?
+#33 If creating a hole on a filesystem that does not support file holes, what will happen?
+#34 Do the file holes really consume no disk space?
+#35 Is it possible to write bytes at an arbitrary point past the end of the file?
+#36 Can we apply lseek to all types of files?
+#37 Does the lseek() call cause any physical device access?
+#38 May the offset In the lseek system call be negative?
+#39 Is file offset automatically adjusted while reading from a file?
+#40 Are all open file descriptors of a process closed automatically when a process terminates?
+#41 Does a successful return from write() guarantee that the data has been transferred to disk?
+#42 May a call to read() return less than the requested number of bytes?
+#43 Do system calls allocate memory for buffers that are used to return information to the caller?
+#44 Can you modify an executable file if it is currently executing?
+#45 What are the open() errors related to the number of open files?
+#46 What is the O_NOATIME open() flag?
+#47 What is a O_CLOEXEC flag?
+#48 What is the '/proc/PID/fdinfo'?
+#49 If open() succeeds, is it guaranteed to use the lowest-numbered unused file descriptor for the process?
+#50 On what do the permissions placed on a new file depend?
+#51 Is it a legitimate use of files?
+#52 How does the universality of I/O achieved?
+#53 Can the open/read/write/close system calls be used to perform I/O on other types of files?
+#54 What are the key system calls for performing file I/O?
+#55 Can we refer to a standard file descriptor as a number?
+#56 What file descriptors do most programs expect to be able to use?
+#57 Does each process has its own set of file descriptors?
+#58 To what types of open files do file descriptors refer?
+#59 When using the Linux-specific reboot() system call to reboot the system, the second argument, magic2, must be specified as one of a set of magic numbers (e.g., LINUX_REBOOT_MAGIC2). What is the significance of these numbers?
+#60 Are the perror() and strerror() function locale-sensitive?
+#61 Can you set the `errno` variable to `0`?
+#62 Can a system call return `-1` on success?
+#63 Do system calls or library functions reset errno to 0?
+#64 What variable is set if a system calls fails?
+#65 What system calls never fail?
+#66 How to get the version of installed glibc?
+#67 What is a 'CPU time' of a process?
+#68 What are the general points about system calls?
+#69 Put the system call steps in right order
+#70 What is a 'system call'?
+#71 Is the /proc file system specified by some standards?
+#72 What is a '/proc' directory in UNIX-like operating systems?
+#73 POSIX.1b defined a number of extensions to POSIX.1 for the support of realtime applications, including these ones
+#74 What is a 'user CPU time'?
+#75 What is a 'system CPU time'?
+#76 Prognose the output of the 'time' command
+#77 What is a 'real time' of a process?
+#78 What is a key point about a pseudoterminal?
+#79 What is a pseudoterminal?
+#80 What are Effective user ID and Effective group ID used for?
+#81 What statements are inherent to a daemon process?
+#82 Check correct expressions about sessions
+#83 What is a foreground process group?
+#84 What is a session leader?
+#85 What is a session?
+#86 What is the process group leader?
+#87 In shells, what is the 'job control' feature?
+#88 If a signal is generated while it is blocked...
+#89 When a signal is said to be pending for a process?
+#90 Can a process always ignore all signals?
+#91 When the kernel may send a signal to a process?
+#92 Can a process send itself a signal?
+#93 Tick all answers that relate to the IPC
+#94 What does the IPC acronym stand for?
+#95 What are the benefits of using shared libraries?
+#96 What is a static library
+#97 What types of object libraries do UNIX systems provide?
+#98 What purposes do the memory mapping serve?
+#99 When the mmap() system call creates a new memory mapping in the calling process’s virtual address space, can it be shared with mappings in other processes?
+#100 Can the resource limits of the shell be adjusted?
+#101 Does a forked process inherit its parent’s resource limit settings?
+#102 What system call can let the process to set its limits?
+#103 When a process replaces the program that it is running using exec(), can it specify new environment?
+#104 Does a new process created via fork() inherit a copy of its parent's environment?
+#105 What is the purpose of capabilities?
+#106 How a process can become a privileged process?
+#107 Check right facts about the exit code or status
+#108 What is a privileged process?
+#109 What is a purpose of Supplementary group IDs?
+#110 From where a login shell gets Real User ID and Real Group ID?
