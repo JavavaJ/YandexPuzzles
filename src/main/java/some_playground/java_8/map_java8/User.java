@@ -1,4 +1,4 @@
-package some_playground.map_java8;
+package some_playground.java_8.map_java8;
 
 public class User {
     private int id;
